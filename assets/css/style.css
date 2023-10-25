@@ -133,6 +133,8 @@ ol {
   padding: 0 15px;
   color: #fff;
   text-decoration: none;
+
+  transition: background 0.2s linear;
 }
 
 .nav__link:not(.active):hover {
