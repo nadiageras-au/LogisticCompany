@@ -10,13 +10,40 @@
       href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=PT+Sans:wght@400;700&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="assets/css/slick.css" />
+    <link rel="stylesheet" href="assets/css/aos.css" />
     <link rel="stylesheet" href="assets/css/style.css" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/images/favicons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/images/favicons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/images/favicons/favicon-16x16.png"
+    />
+    <link rel="manifest" href=assets/images/favicons/manifest.json">
+    <link
+      rel="mask-icon"
+      href="assets/images/favicons/safari-pinned-tab.svg"
+      color="#004af2"
+    />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
     <title>Transport Logistic</title>
   </head>
   <body>
     <div class="page">
       <!--Header-->
-      <header class="header">
+      <header class="header" id="header">
         <div class="container">
           <div class="header__inner">
             <a href="index.html"
@@ -26,14 +53,14 @@
                 alt="CenterLogistic"
             /></a>
 
-            <nav class="nav">
+            <nav class="nav" id="nav">
               <a class="nav__link" href="index.html">Home Page</a>
               <a class="nav__link" href="blog.html">Our blog</a>
               <a class="nav__link active" href="text.html">Privacy Policy</a>
               <a class="nav__link" href="text.html">Terms &amp; Conditions</a>
             </nav>
 
-            <button class="burger" type="button">
+            <button class="burger" type="button" id="navToggle">
               <img
                 class="burger__icon"
                 src="/assets/images/burger.svg"
@@ -44,7 +71,7 @@
         </div>
       </header>
       <!-- Intro -->
-      <div class="intro intro--text"></div>
+      <div class="intro intro--text" id="intro"></div>
 
       <!-- Text -->
       <section class="section">
@@ -129,7 +156,9 @@
     <!--./page-->
 
     <!-- Javascript -->
-    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.7.1.slim.min.js"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.7.1.min.js"></script>
+    <script src="assets/js/slick.min.js"></script>
+    <script src="assets/js/aos.js"></script>
     <script src="assets/js/app.js"></script>
   </body>
 </html>
